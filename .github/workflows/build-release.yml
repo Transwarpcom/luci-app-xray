@@ -103,6 +103,9 @@ jobs:
           cd "$SDK_HOME"
           make defconfig
           make package/${PACKAGE_NAME}/status/{clean,compile} V=s
+          make package/${PACKAGE_NAME}/geodata/{clean,compile} V=s
+          make package/${PACKAGE_NAME}/i18n/{clean,compile} V=s
+          make package/${PACKAGE_NAME}/core/{clean,compile} V=s
           find "$SDK_HOME/bin/" -type f -name "*.ipk" -exec ls -lh {} \;
           cd -
       - name: Copy Bin Files
