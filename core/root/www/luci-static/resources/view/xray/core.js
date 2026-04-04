@@ -214,7 +214,7 @@ return view.extend({
         o.modalonly = true;
 
         o = ss.taboption('resolving', form.Value, 'domain_resolve_dns', _('Resolve Domain via DNS'), _("Specify a DNS to resolve server hostname. Be careful of possible recursion."));
-        o.datatype = "or(ipaddr, ipaddrport(1))";
+
         o.modalonly = true;
 
         o = ss.taboption('resolving', form.ListValue, 'domain_resolve_dns_method', _('Resolve Domain DNS Method'), _("Effective when DNS above is set. Direct methods will bypass Xray completely so it may get blocked."));
