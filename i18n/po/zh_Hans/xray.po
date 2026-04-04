@@ -89,10 +89,10 @@ msgid "Buffer Size"
 msgstr "缓冲区大小"
 
 msgid "Bypass tproxy for gids"
-msgstr "绕过 tproxy 用于 gid"
+msgstr "针对 GID 绕过透明代理"
 
 msgid "Bypass tproxy for uids"
-msgstr "绕过 tproxy 用于 uid"
+msgstr "针对 UID 绕过透明代理"
 
 msgid "Bypassed"
 msgstr "已绕过"
@@ -779,7 +779,7 @@ msgid "Specify rules like <code>domain:bilibili.com</code> or see <a href=\"http
 msgstr "指定类似 <code>domain:bilibili.com</code> 的规则或参阅 <a href=\"https://xtls.github.io/config/dns.html#dnsobject\">文档</a> 了解详情。<br/>为了使用 Geosite 规则，您需要有效的资源文件 /usr/share/xray/geosite.dat。<br/>使用数据文件重新编译您的固件以使用 Geosite 规则，或 <a href=\"https://github.com/v2fly/domain-list-community\">下载一个</a> 并将其上传到您的路由器。"
 
 msgid "Specify rules like <code>domain:youtube.com</code> or see <a href=\"https://xtls.github.io/config/dns.html#dnsobject\">documentation</a> for details.<br/> In order to use Geosite rules you need a valid resource file /usr/share/xray/geosite.dat.<br/>Compile your firmware again with data files to use Geosite rules, or <a href=\"https://github.com/v2fly/domain-list-community\">download one</a> and upload it to your router."
-msgstr "指定规则，如 <code>domain:youtube.com</code> 或参阅 <a href=\"https://xtls.github.io/config/dns.html#dnsobject\">文档</a> 了解详情。<br/>为了使用 Geosite 规则，您需要有效的资源文件 /usr/share/xray/geosite.dat。<br/>使用数据文件重新编译您的固件以使用 Geosite 规则，或 <a href=\"https://github.com/v2fly/domain-list-community\">下载一个</a> 并上传到您的路由器。"
+msgstr "指定类似 <code>domain:youtube.com</code> 的规则或参阅 <a href=\"https://xtls.github.io/config/dns.html#dnsobject\">文档</a> 了解详情。<br/>为了使用 Geosite 规则，您需要有效的资源文件 /usr/share/xray/geosite.dat。<br/>使用数据文件重新编译您的固件以使用 Geosite 规则，或 <a href=\"https://github.com/v2fly/domain-list-community\">下载一个</a> 并将其上传到您的路由器。"
 
 msgid "Specify rules like <code>geosite:category-ads</code> or <code>domain:baidu.com</code>. See <a href=\"https://xtls.github.io/config/dns.html#dnsobject\">documentation</a> for details."
 msgstr "指定类似 <code>geosite:category-ads</code> 或 <code>domain:baidu.com</code> 的规则。有关详细信息，请参阅 <a href=\"https://xtls.github.io/config/dns.html#dnsobject\">文档</a>。"
@@ -788,7 +788,7 @@ msgid "Specify rules like <code>geosite:cn</code> or <code>domain:bilibili.com</
 msgstr "指定类似 <code>geosite:cn</code> 或 <code>domain:bilibili.com</code> 的规则。有关详细信息，请参阅 <a href=\"https://xtls.github.io/config/dns.html#dnsobject\">文档</a>。"
 
 msgid "Specify rules like <code>geosite:geolocation-!cn</code> or <code>domain:youtube.com</code>. See <a href=\"https://xtls.github.io/config/dns.html#dnsobject\">documentation</a> for details."
-msgstr "指定规则，如 <code>geosite:geolocation-!cn</code> 或 <code>domain:youtube.com</code>。有关详细信息，请参阅 <a href=\"https://xtls.github.io/config/dns.html#dnsobject\">文档</a>。"
+msgstr "指定类似 <code>geosite:geolocation-!cn</code> 或 <code>domain:youtube.com</code> 的规则。有关详细信息，请参阅 <a href=\"https://xtls.github.io/config/dns.html#dnsobject\">文档</a>。"
 
 msgid "Specify upstream servers here."
 msgstr "在此处指定上游服务器。"
